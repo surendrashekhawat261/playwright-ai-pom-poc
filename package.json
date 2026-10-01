@@ -1,0 +1,16 @@
+{
+  "name": "playwright-ai-pom-poc",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript POM POC for testautomationpractice.blogspot.com with AI-assisted failure artifacts",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "ai:prompt": "ts-node utils/generate-healing-prompt.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  }
+}
